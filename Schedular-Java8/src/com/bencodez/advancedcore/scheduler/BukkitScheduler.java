@@ -6,7 +6,6 @@ import org.bukkit.entity.Entity;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.scheduler.BukkitTask;
 
-@SuppressWarnings("deprecation")
 public class BukkitScheduler {
 
 	public static void executeOrScheduleSync(Plugin plugin, Runnable task) {
