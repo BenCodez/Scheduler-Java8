@@ -3,7 +3,18 @@
 	<groupId>com.bencodez</groupId>
 	<artifactId>Scheduler-Java8</artifactId>
 	<version>1.0</version>
+	<distributionManagement>
+		<snapshotRepository>
+			<id>nexus</id>
+			<url>https://nexus.bencodez.com/repository/maven-snapshots/</url>
+		</snapshotRepository>
+		<repository>
+			<id>nexus</id>
+			<url>https://nexus.bencodez.com/repository/maven-releases</url>
+		</repository>
+	</distributionManagement>
 	<build>
+
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>
 			<plugin>
